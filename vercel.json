@@ -3,14 +3,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "Soninke/wsgi.py",
+      "src": "pointcheck/wsgi.py",
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.12" }
     }],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "Soninke/wsgi.py"
+      "dest": "pointcheck/wsgi.py"
     }
   ]
 }
