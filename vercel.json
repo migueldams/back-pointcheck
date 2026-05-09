@@ -12,5 +12,8 @@
       "src": "/(.*)",
       "dest": "pointcheck/wsgi.py"
     }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
