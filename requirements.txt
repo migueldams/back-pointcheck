@@ -11,4 +11,4 @@ reportlab==4.0.9
 dj-database-url
 psycopg2-binary>=2.9.9
 psycopg[binary]>=3.0.0
-dotenv>=0.21.0
+dotenv
